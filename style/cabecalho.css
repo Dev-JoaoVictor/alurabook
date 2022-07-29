@@ -17,7 +17,7 @@
     align-items: center;
     background-color: var(--branco);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative;
 }
 
@@ -30,6 +30,7 @@
     position: absolute;
     top: 100%;
     width: 60vw;
+    margin-left: 100px;
 }
 
 .container__botao:checked ~ .lista-menu {
@@ -44,12 +45,19 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
+
 }
 
 .lista-menu__link {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
-    -webkit-texte-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container__botao {
+    display: none;
 }
