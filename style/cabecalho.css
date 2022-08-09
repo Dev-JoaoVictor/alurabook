@@ -7,6 +7,14 @@
     width: 24px;
 }
 
+.container__botao:checked~.container__rotulo>.cabecalho__menu-hamburguer {
+    background-image: url("../img/Menu-aberto.png");
+}
+
+.container__botao:checked~.container__rotulo {
+    background: var(--azul-degrade);
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -17,7 +25,7 @@
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
-    position: relative; 
+    position: relative;
 }
 
 .container__imagem {
@@ -31,7 +39,7 @@
     width: 50vw;
 }
 
-.container__botao:checked ~ .lista-menu {
+.container__botao:checked~.lista-menu {
     display: block;
 }
 
@@ -68,12 +76,17 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
-    .container__titulo, .container__titulo--negrito{
+    .container__titulo,
+    .container__titulo--negrito {
         font-family: var(--fonte-secundaria);
         font-size: 36px;
-        
+
     }
 
     .container__titulo {
@@ -99,7 +112,7 @@
         color: var(--preto);
         padding: 1em;
     }
-    
+
     .container__imagem-transparente {
         display: none;
     }
@@ -116,16 +129,41 @@
     .opcoes__botao {
         display: none;
     }
-    
-    .opcoes__item-ativo:hover {
-        background: var(--azul-degrade);        
+
+    .opcoes__botao:checked~.opcoes__rotulo>.opcoes__item {
+        background: var(--azul-degrade);
         color: var(--branco);
     }
 
-    .opcoes__link:hover {
-        background: var(--azul-degrade);    
-        color: var(--branco);
-        
+    .lista-menu__item:hover {
+        background: var(--azul-degrade);
     }
-    
+
+    .lista-menu__item:hover>.lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
+    }
+
 }
