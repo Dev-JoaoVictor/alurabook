@@ -9,18 +9,12 @@
 </p>
 
 ## Screenshots
-<div>
-    <img width ="248px" src="./assets/screenshot-1.png"></img>
-    <img width ="248px" height="350px" src="./assets/screenshot-2.png"></img>
-    <img width ="248px"src="./assets/screenshot-3.png"></img>
-    <img width ="248px" height="357px" src="./assets/screenshot-4.png"></img>
-    
-</div>
+<img src="./assets/screenshot.png"></img>
 <br>
 
 ## Deploy
 
-**Link para testes:** <a>alurabook-lime.vercel.app/</a>
+**Link para testes:** <a href="https://alurabook-lime.vercel.app/">alurabook-lime.vercel.app/</a>
 
 ## Stack utilizada
 
