@@ -9,7 +9,7 @@
 </p>
 
 ## Screenshots
-<img src="./assets/screenshot.png"></img>
+<img width="550" src="./assets/screenshot.png"></img>
 <br>
 
 ## Deploy
