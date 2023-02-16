@@ -1,6 +1,6 @@
-# AluraBook
+<h1 align="center" >AluraBook</h1>
 
-<h3>AluraBook é uma página de vendas de livros</h3>
+<h3 align="center" >AluraBook é uma página de vendas de livros, com objetivo na prática do Método Mobile-First</h3>
 <br>
 
 ## Demonstração
