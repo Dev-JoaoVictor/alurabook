@@ -14,7 +14,7 @@
 
 ## Deploy
 
-**Link para testes:** <a href="https://alurabook-lime.vercel.app/">alurabook-lime.vercel.app/</a>
+**Link para testes:** <a href="https://alurabook-lime.vercel.app/" target="_blank">alurabook-lime.vercel.app/</a>
 
 ## Stack utilizada
 
